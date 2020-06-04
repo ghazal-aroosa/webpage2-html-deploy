@@ -28,6 +28,6 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ page2-ghazal.surge.sh --token ${{secrets.SURGE_TOKEN1}}
+      run: surge ./ ph1-ghazal.surge.sh --token ${{secrets.SURGE_TOKEN1}}
       
 
